@@ -36,6 +36,15 @@ Skin-Cancer-Detection-App/Models/allergy-model/..
 
 4. Install app and Requirements
 
+
+Git LFS
+-------
+
+To clone and use this repository, you'll need Git Large File Storage (LFS).
+
+Our [Developer Guide](https://developer.lsst.io/tools/git_lfs.html)
+explains how to set up Git LFS for LSST development.
+
 # Install Instructions:
 
 How to run our App? Follow the instructions given here: 
