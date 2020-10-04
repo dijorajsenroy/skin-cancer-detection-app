@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "427802001258",
+    "firebase_url": "https://skin-cancer-detection-bc1c9.firebaseio.com",
+    "project_id": "skin-cancer-detection-bc1c9",
+    "storage_bucket": "skin-cancer-detection-bc1c9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:427802001258:android:e247ceda441ebb13faef13",
+        "android_client_info": {
+          "package_name": "com.google.skincancerapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "427802001258-bhb1path4b2p2ipjs0gu5ikpg38ee7t9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.google.skincancerapp",
+            "certificate_hash": "d7fa9f35f75225e0e931e4a0b0d3d92fdd9b0dd6"
+          }
+        },
+        {
+          "client_id": "427802001258-1k8v2nc9si6f5ot348lha9v67g85t68u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBsshSKJcLu9DbgoTDd6NvrpnrTQgXi8y8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "427802001258-1k8v2nc9si6f5ot348lha9v67g85t68u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
