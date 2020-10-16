@@ -24,13 +24,13 @@ We have used 3 models for 3-layered multipurpose testing, namely, for detecting 
 
 And also the given types of allergies and skin diseases:
 
-1. Acne-and-Rosacea-Photos
+1. Acne and Rosacea
 
-2. Cellulitis-Impetigo-and-other-Bacterial-Infections
+2. Cellulitis, Impetigo, and other Bacterial Infections
 
-3. Eczema-and-Atopic-Dermatitis-Photos
+3. Eczema and Atopic Dermatitis 
 
-4. Nail-Fungus-and-other-Nail-Disease
+4. Nail Fungus and other Nail Disease
 
 5. Application/Deployment:
 
@@ -54,11 +54,9 @@ To deploy our models we have seamlessly integrated Tensorflow models using TFLit
 
 1. Model Training, Data Preprocessing and Conversion to TFLite is shown in Skin-Cancer-Detection-App/Models/.. as Jupyter Notebooks. Data is taken from Kaggle for Melanoma Model and Cancer Model. For Allergy Model a custom scraper is implemented for obtaining data, which is shown in, Skin-Cancer-Detection-App/Models/allergy-model/..
 
-2. FLutter app design and model is contained in Skin-Cancer-Detection-App/App/..
+2. Flutter app source code is contained in Skin-Cancer-Detection-App/App/..
 
-3. Models in .tflite formats and their labels are in App/assets/models
-
-4. Application APK
+3. Models in .tflite formats and their labels are in App/assets/
 
 # Git LFS
 
