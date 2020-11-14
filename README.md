@@ -67,3 +67,6 @@ Our Developer Guide explains how to set up Git LFS for LSST development.
 # Install Instructions:
 
 How to run our App? Just download the apk and install it. Alternatively you can run the source code in Android Studio, by connecting an AVD and using your own google services login. To run the app in the emulator go to app directory and execute: flutter run. Flutter and Dart SDK required.
+
+# Made for:
+Hacker-Earth's AGBI Health-tech grand challenge organised by Virtusa technologies, Niti Aayog, and Mehta group of hospitals. Submission bagged 2nd prize out of 100 shortlisted ideas and 1200+ registered teams. 
