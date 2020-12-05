@@ -8,7 +8,7 @@ We aim to provide a complete user experience with integrated medication and doct
 
 # Models:
 
-We have used 3 models for 3-layered multipurpose testing, namely, for detecting Melanoma( the most fatal type of Skin Cancer), the given types of Skin Cancers:
+We have used 3 models for 3-layered multipurpose testing, namely, for detecting Melanoma(the most fatal type of Skin Cancer), the given types of Skin Cancers:
 
 1. Melanocytic nevi
 
@@ -36,19 +36,23 @@ And also the given types of allergies and skin diseases:
 
 To deploy our models we have seamlessly integrated Tensorflow models using TFLite framework into a Flutter Android App, where we have used multiple APIs to create an engaging user-experience and provided with testing/educative as well as preventive and medical aid features. The salient features of our Application is listed as follows:
 
-1. Carousel 
+1. Carousel to showcase App features and provide an overview
 
-2. User input form to check Symptoms
+2. User input form to check symptoms and select model for prediction
 
-3. 3-types of Prediction model for reliable test results
+3. 3-types of cutting edge deep learning prediction model for reliable results
 
-4. Ailment information and awareness page
+4. Disease information cards to spread awareness and knowledge
 
 5. Contact Doctor through Email and Whatsapp APIs
 
 6. Search for Local Hospitals using Google Map integration
 
-7. Appointment real-time database and scheduling
+7. Real-time database for appointment scheduling
+
+# Training Overview:
+
+The three models were trained on open source datasets, some using custom or transfer learning architectures on Kaggle Cloud GPUs. For specific training and model architecture refer to the training notebooks in Models/. The data pre-processing, scraping, augmentation techniques are also described in these notebooks. Models were trained using Tensorflow 2.0 deep learning framework, and were exported in .tflite (Tensorflow lite) format. For post-processing we have tested the models, then applied quantisation, pruning to clip inconsequential weights in the model an reduce it's size for deployment. The pre and post quantisation test results can be found in the model training notebooks as well. 
 
 # Files in Repository:
 
@@ -68,5 +72,6 @@ Our Developer Guide explains how to set up Git LFS for LSST development.
 
 How to run our App? Just download the apk and install it. Alternatively you can run the source code in Android Studio, by connecting an AVD and using your own google services login. To run the app in the emulator go to app directory and execute: flutter run. Flutter and Dart SDK required.
 
-# Made for:
-Hacker-Earth's AGBI Health-tech grand challenge organised by Virtusa technologies, Niti Aayog, and Mehta group of hospitals. Submission bagged 2nd prize out of 100 shortlisted ideas and 1200+ registered teams. 
+# Accomplishments:
+
+Solution was partly inspired by SIIM-ISIC Melanoma Detection Challenge on Kaggle, in which we had won rank 101 of 3314 teams and silver medal. The app was submitted to Hacker-Earth's AGBI Health-tech grand challenge, organised by Virtusa technologies, Niti Aayog, and Mehta group of hospitals. Submission was awarded 2nd prize out of 100 shortlisted ideas and 1200+ registered teams, and an incubation offer. 
