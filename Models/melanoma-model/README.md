@@ -10,11 +10,16 @@ The code has been repeated so skip to model building to see the model build and 
 and saved the model weight. The model trained is Effnet B5 and for reference Effnet B6 has also been trained. Pruning accuracy is 97-99, but
 since the pruned model is large (120 and 160 MB) we have used quantisation and the new accuracy is 93 percent. This is essential for deploying in app
 which does not support heavy models, but if possible the original model we can deploy later on Cloud Apps like AWS or Azure, to harness the original
-accuracy of the model. This model is in the Models-TFLite Folder.
+accuracy of the model. This model is in the app/assets/models/ Folder.
 
 # Model Used:
 
-Effnet B5
+Effnet B5 Architecture, Illustrated here:
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/36783331/95022188-460abc80-0693-11eb-9b06-8172601e0398.png" width="500" title="image">
+</p>
+
 
 # Training of Model:
 
